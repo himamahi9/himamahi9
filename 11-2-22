@@ -1,0 +1,25 @@
+#program for if elif else statement
+sno=int(input('enter sno'))
+sname=int(input('enter name'))
+s1=int(input('s1 marks'))
+s2=int(input('s1 marks'))
+s3=int(input('s1 marks'))
+s4=int(input('s1 marks'))
+s5=int(input('s1 marks'))
+s6=int(input('s1 marks'))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+if avg>=91:
+    print('O-grade')
+if avg>=81:
+    print('a-grade')
+if avg>=71:
+    print('b-grade')
+if avg>=60:
+    print('c-grade')
+if avg>=50:
+    print('d-grade')
+if avg>=40:
+    print('pass')
+else:
+    print('fail')
