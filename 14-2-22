@@ -1,0 +1,5 @@
+n=int(input('enter number'))
+sum=0
+for digit in str(n):
+ Sum=sum+int(digit)    
+print('sum of digits',Sum)
