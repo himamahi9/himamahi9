@@ -1,0 +1,11 @@
+n=int(input('enter a value'))
+a=-n
+b=n
+n=int(input())
+for i in range(1,n+1):
+    c=a+b
+    print(c)
+    a=b
+    b=c
+    
+    
