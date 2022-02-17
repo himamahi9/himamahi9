@@ -1,0 +1,4 @@
+odd=int(input('enter a value:'))
+even=int(input('enter a value:'))
+for i in range(1):
+    print(i)
